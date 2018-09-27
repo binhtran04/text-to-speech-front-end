@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/header';
-import TextInput from './components/textInput';
-import SubmitButton from './components/submitButton';
-import AudioOutput from './components/audioOutput';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/header/header";
+import TextInput from "./components/textInput/textInput";
+import SubmitButton from "./components/submitButton/submitButton";
+import AudioOutput from "./components/audioOutput/audioOutput";
 
 class App extends Component {
   render() {
@@ -18,12 +18,12 @@ class App extends Component {
       //     To get started, edit <code>src/App.js</code> and save to reload.
       //   </p>
       // </div>
-        <div className="App">
-            <Header/>
-            <TextInput/>
-            <SubmitButton/>
-            <AudioOutput/>
-        </div>
+      <div className="App">
+        <Header />
+        <TextInput />
+        <SubmitButton />
+        <AudioOutput />
+      </div>
     );
   }
 }
