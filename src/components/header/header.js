@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
+import logo from '../../images/sb_icon_small.png';
+import './header.css';
 
 class Header extends Component {
 
     render() {
         return (
             <div className='header'>
-                <img src='https://www.artycutz.com/ekmps/shops/craftedintheuk/images/disney-font-wooden-letters-laser-cut-2mm-mdf.-blank-embellishments-various-sizes-10364-p.jpg' style={{width: '100px', height: '100px'}} />
-                <h1>Text to speech</h1>
+                <img className='logo' src={logo}/>
+                <a className='company-name' href='#'>SB</a>
+                <a className='project-name' href='#'>Text To Speech</a>
             </div>
         )
     }
