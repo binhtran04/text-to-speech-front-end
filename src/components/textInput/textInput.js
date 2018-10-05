@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import './textInput.css'
 
 class TextInput extends Component {
 
     render() {
         return (
-            <div className='inputBlock'>
-                <label>Please paste text in below box:</label>
-                <textarea rows='4' cols='50'>
-                    Your text..
+            <div className='input-block'>
+                <label>Please input text in below box</label>
+                <textarea placeHolder='Your text ...'>
                 </textarea>
             </div>
         )

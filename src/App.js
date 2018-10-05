@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/header/header";
 import TextInput from "./components/textInput/textInput";
@@ -20,9 +19,11 @@ class App extends Component {
       // </div>
       <div className="App">
         <Header />
-        <TextInput />
-        <SubmitButton />
-        <AudioOutput />
+        <div className="main-container">
+          <TextInput />
+          <SubmitButton />
+          <AudioOutput />
+        </div>
       </div>
     );
   }
