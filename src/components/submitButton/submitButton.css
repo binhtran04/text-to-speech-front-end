@@ -1,0 +1,11 @@
+.buttonBlock button {
+  padding: 5px;
+  background-image: linear-gradient(to bottom right, #f3dcdc, #3da9e8);
+}
+.buttonBlock button:focus {
+  outline: 0;
+}
+.buttonBlock button:active {
+  /* border-style: outset; */
+  border: none;
+}
